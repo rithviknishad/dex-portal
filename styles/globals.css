@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-white text-accent-8 dark:bg-black dark:text-accent-1 transition-colors
+}
