@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     colors: {
+      transparent: "transparent",
       black: "#000",
       white: "#FFF",
       accent: {
@@ -18,14 +19,6 @@ module.exports = {
         6: "#444",
         7: "#333",
         8: "#111",
-        "1-dark": "#111",
-        "2-dark": "#333",
-        "3-dark": "#444",
-        "4-dark": "#666",
-        "5-dark": "#888",
-        "6-dark": "#999",
-        "7-dark": "#EAEAEA",
-        "8-dark": "#FAFAFA",
       },
       error: {
         lighter: "#F7D4D6",
@@ -66,7 +59,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: "Roboto",
+        inter: "Inter",
         serif: "Roboto Serif",
         mono: "Roboto Mono",
       },
